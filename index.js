@@ -1,8 +1,10 @@
 // Write your code here!
-document.querySelector('#main').remove();
+let main = document.querySelector("main#main");
 
-let element = document.createElement('h1')
-element.
-document.body.appendChild(element)
+main.remove(); 
 
-let newHeader = document.querySelector('#victory');
+let newHeader = document.createElement("h1");
+
+newHeader.setAttribute("id", "victory"); 
+
+newHeader.innerHTML = "Noor is the champion"; 
